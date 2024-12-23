@@ -15,7 +15,6 @@ A variant of hybrid A* algorithm is developed to find the shortest winding- cons
       <img src="Simulation2/6.28.png" alt="Figure 3" width="200" style="border: none;"><br>
       <b>Figure 3: 6.28 rad</b>
     </td>
-  </tr>
     <tr>
     <td align="center">
         <img src="Simulation2/9.42.png" alt="Figure 4" width="200" style="border: none;"><br>
@@ -25,8 +24,9 @@ A variant of hybrid A* algorithm is developed to find the shortest winding- cons
         <img src="Simulation2/12.57.png" alt="Figure 5" width="200" style="border: none;"><br>
         <b>Figure 5: 12.57 rad</b>
     </td>
-    <!-- <td align="center" style="background-color: transparent; border: none;"></td> -->
+    <td align="center" style="background-color: transparent; border: none;"></td>
     </tr>
+
 
 
 </table>
