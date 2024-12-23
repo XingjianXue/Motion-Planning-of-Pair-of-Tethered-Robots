@@ -1,0 +1,1 @@
+heuristic regarding path cost is re-added, which is the direct distance between the robot and the goal.
