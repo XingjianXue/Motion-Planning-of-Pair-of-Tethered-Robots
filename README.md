@@ -16,11 +16,11 @@ A variant of hybrid A* algorithm is developed to find the shortest winding- cons
   </tr>
   <tr>
     <td align="center">
-      <img src="Simulation2/6.28.png" alt="Figure 3: 6.28 rad" width="200%" style="border: none; margin: 0; padding: 0;"><br>
+      <img src="Simulation2/6.28.png" alt="Figure 3: 6.28 rad" width="300%" style="border: none; margin: 0; padding: 0;"><br>
       <b>Figure 3: 6.28 rad</b>
     </td>
     <td align="center">
-      <img src="Simulation2/9.42.png" alt="Figure 4: 9.42 rad" width="200%" style="border: none; margin: 0; padding: 0;"><br>
+      <img src="Simulation2/9.42.png" alt="Figure 4: 9.42 rad" width="300%" style="border: none; margin: 0; padding: 0;"><br>
       <b>Figure 4: 9.42 rad</b>
     </td>
   </tr>
