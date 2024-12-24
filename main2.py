@@ -12,15 +12,24 @@ from shapely import is_simple
 import time
 from algorithm import tether_hybrid_Astar1,tether_hybrid_Astar2,is_the_input_valid,Robot_pair,Robot, g_cost,heuristic_cost,list2tuple,winding_constraint_check,winding_Astar,dubinsPath1,dubinsPath2
 from plot import plot
+
+#change the start pose and tether configuration here
 start_pos = [[0,0,np.pi/4],[20,0,np.pi/2]]
 tether_config = [start_pos[0][0:2],start_pos[1][0:2]]
 
 # start_pos = [[5.0, 26.0, np.pi/2],[20.9762, 17.7169, -np.arctan2(3,1)]]
 # tether_config = [[5.0, 26.0], [6.7, 21], [6.1, 10], [6, 5], [12, 5], [15, 22], [19, 22], [20.9762, 17.7169]]
 
+#change the goal pose and tether configuration here
 goal_pos = [[5,26,np.pi/2],[18,26,np.pi/2]]
+
+#change the winding constraint here
 winding_constraint = 1.5*np.pi
+
+#change the simulation step here
 step_n = 0.3
+
+#curvature constraint: r = 1, do not change this, otherwise it will lead to errors
 r = 1
 length_limit = 300
 index = 0
