@@ -1,12 +1,7 @@
 # Author: Xingjian Xue
-# The algorithm has two parts, which can be simulated respectively in main.py and main2.py 
-# The first part does not involve the winding angles and the robots are only required to find their goal
-# The second part adds the winding constraint and unlike the first part, the robot can only move in one direction
-
-# problem to be solved
-    # The estimated total cost and the fianl calculated total cost has small difference, which should be corrected.
-    # The result is not the optimal even when the winding constraint is removed, which is strange.
-    
+# The algorithm has two parts and can be simulated respectively in main.py and main2.py.
+# The first part does not involve the winding angles and the robots are only required to find their goals.
+# The second part adds the winding constraint and the robot can only move forward.
 
 import numpy as np
 from obstacle_class import Obstacle
