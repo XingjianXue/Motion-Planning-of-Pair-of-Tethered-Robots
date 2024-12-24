@@ -29,7 +29,7 @@ winding_constraint = 1.5*np.pi
 #change the simulation step here
 step_n = 0.3
 
-#curvature constraint: r = 1, do not change this, otherwise it will lead to errors
+#curvature constraint: r = 1, do not change this, otherwise it will lead to errors.
 r = 1
 length_limit = 300
 index = 0
